@@ -9,12 +9,15 @@ p {
 
 nav#menu {
     display: block;
-    
+
 }
 
 nav#menu ul{
     list-style: none;
     text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    /* left: 100%; */
 }
 
 nav#menu li {
@@ -23,6 +26,12 @@ nav#menu li {
     padding: 10px;
     margin: 2px;
 }
+
+navmenu h1{
+    display: none;
+}
+
+
 
 
 /* Formatacao de imagens com legendas */
